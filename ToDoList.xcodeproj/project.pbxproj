@@ -13,10 +13,10 @@
 		9CA80A982059075C00473545 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA80A972059075C00473545 /* CategoryViewController.swift */; };
 		9CB5A571205A9E0100A1137D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5A570205A9E0100A1137D /* Item.swift */; };
 		9CB5A573205A9E0C00A1137D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5A572205A9E0C00A1137D /* Category.swift */; };
+		9CEACAB2206A9A1A006FC066 /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = 9CEACAB1206A9A1A006FC066 /* Supporting Files */; };
 		9CF24F6B20566C6A004BED2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF24F6A20566C6A004BED2F /* AppDelegate.swift */; };
 		9CF24F6D20566C6A004BED2F /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF24F6C20566C6A004BED2F /* ToDoListViewController.swift */; };
 		9CF24F7020566C6A004BED2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF24F6E20566C6A004BED2F /* Main.storyboard */; };
-		9CF24F7220566C6A004BED2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF24F7120566C6A004BED2F /* Assets.xcassets */; };
 		9CF24F7520566C6A004BED2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF24F7320566C6A004BED2F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +29,11 @@
 		9CA80A9920590C6700473545 /* ToDoList-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoList-Bridging-Header.h"; sourceTree = "<group>"; };
 		9CB5A570205A9E0100A1137D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9CB5A572205A9E0C00A1137D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9CEACAB1206A9A1A006FC066 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
 		9CF24F6720566C6A004BED2F /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF24F6A20566C6A004BED2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF24F6C20566C6A004BED2F /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		9CF24F6F20566C6A004BED2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CF24F7120566C6A004BED2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF24F7420566C6A004BED2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF24F7620566C6A004BED2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E9187C6BC59FD0A0FAE69D /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,8 +130,8 @@
 		9CF24F832056D705004BED2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9CEACAB1206A9A1A006FC066 /* Supporting Files */,
 				9C4273D4206A93F300CA661B /* Screenshots */,
-				9CF24F7120566C6A004BED2F /* Assets.xcassets */,
 				9CF24F7320566C6A004BED2F /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -202,7 +202,7 @@
 			files = (
 				9C4273D5206A93F400CA661B /* Screenshots in Resources */,
 				9CF24F7520566C6A004BED2F /* LaunchScreen.storyboard in Resources */,
-				9CF24F7220566C6A004BED2F /* Assets.xcassets in Resources */,
+				9CEACAB2206A9A1A006FC066 /* Supporting Files in Resources */,
 				9CF24F7020566C6A004BED2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
